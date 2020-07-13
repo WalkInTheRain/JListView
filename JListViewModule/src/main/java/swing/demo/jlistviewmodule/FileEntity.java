@@ -1,4 +1,4 @@
-package swing.demo.jlistviewmoudle;
+package swing.demo.jlistviewmodule;
 
 import javax.swing.ImageIcon;
 

@@ -1,4 +1,4 @@
-package swing.demo.jlistviewmoudle;
+package swing.demo.jlistviewmodule;
 
 import java.awt.Image;
 import java.awt.event.AdjustmentEvent;
@@ -42,11 +42,11 @@ public class JListView {
             newFileEntity.setName(originFileEntity.getName());
             newFileEntity.setType(originFileEntity.getType());
             if (type.equals("photo")) {
-                ImageIcon icon = new ImageIcon(new ImageIcon("JListViewMoudle/src/main/java/resource/listview_photo.png").getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH));
+                ImageIcon icon = new ImageIcon(new ImageIcon("JListViewModule/src/main/java/resource/listview_photo.png").getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH));
                 newFileEntity.setFinalImageIcon(icon);
                 mPicIconList.add(newFileEntity);
             } else if (type.equals("folder")) {
-                ImageIcon icon = new ImageIcon(new ImageIcon("JListViewMoudle/src/main/java/resource/listview_folder.png").getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH));
+                ImageIcon icon = new ImageIcon(new ImageIcon("JListViewModule/src/main/java/resource/listview_folder.png").getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH));
                 newFileEntity.setFinalImageIcon(icon);
                 mPicIconList.add(newFileEntity);
             }

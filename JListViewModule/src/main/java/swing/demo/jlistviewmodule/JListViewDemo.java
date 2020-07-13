@@ -1,4 +1,4 @@
-package swing.demo.jlistviewmoudle;
+package swing.demo.jlistviewmodule;
 
 import java.awt.BorderLayout;
 import java.util.ArrayList;
